@@ -1,0 +1,90 @@
+:root {
+  --colorVerde: #257457;
+  --colorBranco: #FFFFFF;
+  --colorPurple: #712073;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: acumin-pro, sans-serif;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+.bg-green {
+  background: var(--colorVerde);
+}
+
+.bg-white {
+  background: var(--colorBranco);
+  transition: background 0.9s ease;
+  transition-delay: 0.9s;
+}
+
+.bg-purple {
+  background: var(--colorPurple);
+  transition: background 0.9s ease;
+  transition-delay: 0.9s;
+}
+
+.bg-whitegreen {
+  background: #F1FCFB;
+  transition: background 0.9s ease;
+  transition-delay: 0.9s;
+}
+
+.font-color-purple {
+  color: #632F6E;
+}
+
+.font-color-white {
+  color: white;
+}
+
+.grid {
+  margin: auto;
+  width: 100%;
+  background: var(--colorVerde);
+  transition: background 5s ease;
+  transition-delay: 5s;
+  animation: mymove 4s;
+}
+
+.bg-purple h4 {
+  color: rgba(255, 255, 255, 0.53);
+}
+
+.bg-purple h3 {
+  color: var(--colorBranco);
+}
+
+.bg-purple p {
+  color: rgba(255, 255, 255, 0.69);
+}
+
+.bg-green h4 {
+  color: rgba(255, 255, 255, 0.53);
+}
+
+.bg-green h3 {
+  color: var(--colorBranco);
+}
+
+.bg-green p {
+  color: rgba(255, 255, 255, 0.69);
+}
+
+.color-red {
+  color: #FE2D2D;
+}

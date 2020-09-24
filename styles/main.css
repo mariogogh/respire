@@ -1,0 +1,15 @@
+/* Todos os arquivos de css */
+@import "reset.css";
+@import "colors.css";
+@import "type.css";
+@import "./comp/anchor.css";
+@import "./comp/components.css";
+@import "./comp/card-info.css";
+@import "./comp/card-svg.css";
+@import "./comp/header.css";
+@import "./comp/anima.js";
+@import "./anima/blob.css";
+@import "./comp/svg.css";
+@import "./respo/responsive.css";
+
+@import url("https://use.typekit.net/ete8hfm.css");
