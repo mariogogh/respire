@@ -1,0 +1,20 @@
+.box {
+  width: auto;
+  height: auto;
+  padding: 32px;
+  margin-top: 16px;
+  background: #F8DAFC;
+  border-radius: 2px;
+ 
+}
+
+
+.box p {
+ font-size: 20px;
+
+}
+
+.box a {
+ font-size: 20px;
+
+}

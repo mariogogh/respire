@@ -1,0 +1,16 @@
+.card-svg {
+  min-width: 70vw;
+  height: 90vh;
+  display: block;
+}
+
+.card-svg h5 {
+  height: 20%;
+  padding-left: 0.4em;
+  padding-top: 0.4em;
+}
+
+.card-svg svg.image {
+  margin: 16px 32px 0;
+  display: block;
+}
