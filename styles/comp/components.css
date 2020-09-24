@@ -158,12 +158,17 @@
   color: var(--colorBranco);
 }
 
-.container-cards2 a {
+.container-cards2 .card a {
+  font-size: 24px;
+  color: var(--colorBranco);
+
+}
+
+.container-cards2 .card p {
   font-size: 24px;
   color: var(--colorBranco);
   opacity: 75%;
 }
-
 footer {
   width: auto;
 
