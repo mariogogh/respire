@@ -198,3 +198,8 @@ a:active {
   justify-content: space-around;
   animation-delay: -2s;
 }
+
+.section-intro a {
+  color: #000000;
+  opacity: 85%;
+}
