@@ -6,6 +6,7 @@
 @import "./comp/components.css";
 @import "./comp/card-info.css";
 @import "./comp/card-svg.css";
+@import "./comp/links.css";
 @import "./comp/header.css";
 @import "./comp/anima.js";
 @import "./anima/blob.css";

@@ -48,7 +48,7 @@
   margin-top: 32%;
 }
 .container-cards2 p {
-  margin-top: 32%;
+  margin-top: 0%;
 }
 
 .box p {
@@ -161,7 +161,6 @@
 .container-cards2 .card a {
   font-size: 24px;
   color: var(--colorBranco);
-
 }
 
 .container-cards2 .card p {

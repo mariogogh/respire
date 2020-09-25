@@ -1,0 +1,23 @@
+/* unvisited link */
+a:link {
+  color: var(--colorBranco);
+}
+
+/* visited link */
+a:visited {
+  color: var(--colorBranco);
+  opacity: 85%;
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--colorBranco);
+  opacity: 85%;
+   text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: var(--colorBranco);
+  opacity: 85%;
+}

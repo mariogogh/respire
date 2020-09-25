@@ -6,7 +6,7 @@
   }
 
   .container-cards .card:nth-child(1n) {
-    padding-top: 32px;
+    padding-top: 0px;
   }
 
   .card h5 {
@@ -28,7 +28,7 @@
 
 @media (max-width: 1440px) {
   .card {
-    height: 95vh;
+    height: 128vh;
     display: flex;
     flex-direction: column;
   }
@@ -64,6 +64,62 @@
   }
 }
 
+@media (max-width: 1228px) {
+  .box {
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  .container-cards {
+    width: 100%;
+    height: 148vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .container-cards:nth-child(2n) {
+    background: #F8F8F8;
+    flex-direction: row-reverse;
+  }
+  .container-cards2 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card {
+    height: 128vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .color1 {
+    background: #257457;
+  }
+
+  .card h3 {
+    margin-top: 20px;
+  }
+
+  .card p {
+    margin-top: 32px;
+  }
+
+  .box p {
+    margin-top: 0px;
+  }
+
+  .card h5 {
+    padding-left: 8px;
+    padding-top: 0px;
+  }
+  .card h1 {
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+}
 @media (max-width: 1028px) {
   .container-cards {
     width: 100%;
@@ -230,8 +286,6 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .eyebrow h3 {
-  }
 
   .container {
     width: 100%;
@@ -242,7 +296,7 @@
   }
 
   .section-intro .eyebrow {
-    color: #D0D0D0;
+    color: #C0C0C0;
   }
 
   .container-cards .card:nth-child(1n) {
