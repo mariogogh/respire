@@ -2,6 +2,7 @@
   --colorVerde: #257457;
   --colorBranco: #FFFFFF;
   --colorPurple: #712073;
+  --colorRed: #FE2D2D;
 }
 
 * {
@@ -87,4 +88,8 @@ html {
 
 .color-red {
   color: #FE2D2D;
+}
+
+.color-black {
+  color: #000000;
 }

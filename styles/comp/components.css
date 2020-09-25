@@ -48,7 +48,7 @@
   margin-top: 32%;
 }
 .container-cards2 p {
-  margin-top: 32%;
+  margin-top: 0%;
 }
 
 .box p {
@@ -158,12 +158,16 @@
   color: var(--colorBranco);
 }
 
-.container-cards2 a {
+.container-cards2 .card a {
+  font-size: 24px;
+  color: var(--colorBranco);
+}
+
+.container-cards2 .card p {
   font-size: 24px;
   color: var(--colorBranco);
   opacity: 75%;
 }
-
 footer {
   width: auto;
 
@@ -194,3 +198,5 @@ a:active {
   justify-content: space-around;
   animation-delay: -2s;
 }
+
+

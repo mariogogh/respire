@@ -21,7 +21,7 @@ h6 {
 p {
   font-style: normal;
   font-weight: 400;
-  font-size: 1.9vw;
+  font-size: 1.8vw;
   line-height: 133.2%;
   font-family: acumin-pro, sans-serif;
   /* or 30px */
@@ -47,17 +47,17 @@ h2 {
   font-weight: 400;
   font-style: normal;
   line-height: 4vw;
-  color: rgba(0, 0, 0, 0.62);
+  color: rgba(0, 0, 0, 0.41);
 }
 
 h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 1.9vw;
-  line-height: 133.2%;
+  line-height: 138.2%;
 
   letter-spacing: -0.03em;
-  color: rgba(138, 138, 138, 1);
+  color: #C0C0C0;
 }
 
 h4 {
@@ -118,12 +118,10 @@ footer p {
 }
 
 .section-intro .eyebrow {
-  color: #808080;
   margin-top: 16px;
 }
 
 .card .eyebrow {
-
   margin-top: 16px;
 }
 
@@ -162,6 +160,21 @@ footer p {
 
   span {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 1228px) {
+  h4 {
+    font-size: 56px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 111.2%;
+  }
+
+  p {
+    font-size: 20px;
   }
 }
 
