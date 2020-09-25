@@ -75,7 +75,12 @@
     </title>
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="styles/main.css" />
+    <head>
+      <link rel="preload" href="styles/main.css" as="main" />
+      <link rel="preload" href="ui.js" as="script" />
+    </head>
+
+    <link rel="stylesheet" href="styles/main.css" as="main" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
