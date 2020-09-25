@@ -21,3 +21,8 @@ a:active {
   color: var(--colorBranco);
   opacity: 85%;
 }
+
+.section-intro a {
+  color: #000000;
+  opacity: 85%;
+}
