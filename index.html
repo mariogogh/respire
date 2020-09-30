@@ -75,7 +75,12 @@
     </title>
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="styles/main.css" />
+    <head>
+      <link rel="preload" href="styles/main.css" as="main" />
+      <link rel="preload" href="ui.js" as="script" />
+    </head>
+
+    <link rel="stylesheet" href="styles/main.css" as="main" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
@@ -490,7 +495,7 @@
           <h4>Compreenda<br /><br /></h4>
           <div>
             <h3 class="eyebrow">
-              Saber avaliar as emoções do outro e é útil para nos dar
+              Saber avaliar as emoções do outro é útil para nos dar
               sensibilidade, para analisar e para perceber as emoções do outro.
             </h3>
           </div>
@@ -703,12 +708,10 @@
             </h3>
           </div>
           <p>
-            Ter uma comunicação mais impactante atinge o objetivo de conquistar
-            a atenção de quem nos ouve. Não existe fórmula mágica para a forma
-            de apresentar ideias mas, existem maneiras de torná-las melhor. Seja
-            mais expressivo (mais teatral). Trabalhe sua expressão facial, seu
-            tom de voz e seus gestos para potencializar a sua mensagem.
-            Demonstre animação.
+            Não existe fórmula mágica para a forma de apresentar ideias mas,
+            existem maneiras de torná-las melhor. Seja mais expressivo (mais
+            teatral). Trabalhe sua expressão facial, seu tom de voz e seus
+            gestos para potencializar a sua mensagem. Demonstre animação.
 
             <br />
             <br />
